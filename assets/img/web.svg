@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2F10E9A5-D21F-4519-A61F-3A2E54708627</title>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-112.000000, -25.000000)" id="web">
+            <g transform="translate(112.000000, 25.000000)">
+                <rect id="Rectangle" fill="#2D84E8" opacity="0.100000001" x="0" y="0" width="68" height="68" rx="34"></rect>
+                <path d="M46,21 C47.6568542,21 49,22.3431458 49,24 L49,39 C49,40.6568542 47.6568542,42 46,42 L22,42 C20.3431458,42 19,40.6568542 19,39 L19,24 C19,22.3431458 20.3431458,21 22,21 L46,21 Z M45,23 L23,23 C21.8954305,23 21,23.8954305 21,25 L21,25 L21,38 C21,39.1045695 21.8954305,40 23,40 L23,40 L45,40 C46.1045695,40 47,39.1045695 47,38 L47,38 L47,25 C47,23.8954305 46.1045695,23 45,23 L45,23 Z" id="Combined-Shape-Copy" fill="#8CBBF2" opacity="0.7"></path>
+                <rect id="Rectangle-Copy-19" fill="#8CBBF2" opacity="0.7" x="14" y="43" width="40" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" fill="#2D83E7" x="34" y="27" width="10" height="2" rx="1"></rect>
+                <rect id="Rectangle" fill="#2D83E7" x="23" y="27" width="9" height="10" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

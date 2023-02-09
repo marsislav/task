@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6047CF5F-6C7C-43F0-AB40-27239F5756D5</title>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-210.000000, -25.000000)" id="Manag">
+            <g transform="translate(210.000000, 25.000000)">
+                <rect id="Rectangle-Copy-7" fill="#43A048" opacity="0.100000001" x="0" y="0" width="68" height="68" rx="34"></rect>
+                <path d="M42.75,25.0588235 C42.6187506,25.0588235 42.4875011,25.0652942 42.3500004,25.0717008 C41.8312492,23.2535294 40.2312508,21.9270593 38.3812489,21.8300001 C37.3062506,18.3682355 34.1999998,16 30.6562498,16 C26.1749997,16 22.5312498,19.7723532 22.5312498,24.4117647 C22.5312498,24.8258832 22.5624996,25.2464058 22.6249998,25.6671233 C20.4375001,26.7152295 19,29.0058825 19,31.5294117 C19,35.0947072 21.8062499,38 25.25,38 C25.3687497,38 25.4875001,37.9935304 25.5687501,37.9935304 L26.5,37.9928171 L41.5,37.9811074 L42.2750011,37.980589 C42.4312511,37.9935305 42.5875011,38 42.75,38 C46.1937489,38 49,35.0947072 49,31.5294118 C49,27.9641163 46.1937489,25.0588235 42.75,25.0588235 Z" id="Path-Copy" fill="#43A048" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-8" fill="#A9D3AB" x="26" y="40" width="2" height="5" rx="1"></rect>
+                <rect id="Rectangle-Copy-9" fill="#A9D3AB" transform="translate(22.000000, 44.000000) rotate(-90.000000) translate(-22.000000, -44.000000) " x="21" y="38" width="2" height="12" rx="1"></rect>
+                <rect id="Rectangle-Copy-10" fill="#A9D3AB" transform="translate(46.000000, 44.000000) rotate(-90.000000) translate(-46.000000, -44.000000) " x="45" y="38" width="2" height="12" rx="1"></rect>
+                <circle id="Oval-Copy-3" fill="#A9D3AB" cx="16" cy="44" r="3"></circle>
+                <circle id="Oval-Copy-4" fill="#A9D3AB" cx="52" cy="44" r="3"></circle>
+                <circle id="Oval-Copy-5" fill="#BFE2C1" cx="34" cy="47" r="3"></circle>
+                <rect id="Rectangle-Copy-11" fill="#BFE2C1" x="33" y="40" width="2" height="5" rx="1"></rect>
+                <rect id="Rectangle-Copy-12" fill="#A9D3AB" x="40" y="40" width="2" height="5" rx="1"></rect>
+                <rect id="Rectangle-Copy-13" fill="#A9D3AB" x="26" y="40" width="2" height="1"></rect>
+                <rect id="Rectangle-Copy-14" fill="#BFE2C1" x="33" y="40" width="2" height="1"></rect>
+                <rect id="Rectangle-Copy-15" fill="#A9D3AB" x="40" y="40" width="2" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

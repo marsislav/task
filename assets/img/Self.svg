@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F42D33B5-3656-482A-BF84-1BF99B186160</title>
+    <defs>
+        <polygon id="path-1" points="14.775227 14.5067622 0 14.5067622 0 0 14.775227 0"></polygon>
+        <polygon id="path-3" points="20 20 0 20 0 0 20 0"></polygon>
+        <polygon id="path-5" points="25 25 0 25 0 0 25 0"></polygon>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-308.000000, -25.000000)" id="Self">
+            <g transform="translate(308.000000, 25.000000)">
+                <path d="M46.75,34.7352941 C46.6187506,34.7352941 46.4875011,34.7411765 46.3500004,34.7470007 C45.8312492,33.0941176 44.2312508,31.8882357 42.3812489,31.8000001 C41.3062506,28.6529414 38.1999998,26.5 34.6562498,26.5 C30.1749997,26.5 26.5312498,29.929412 26.5312498,34.1470588 C26.5312498,34.5235302 26.5624996,34.9058234 26.6249998,35.2882939 C24.4375001,36.2411178 23,38.3235296 23,40.617647 C23,43.8588247 25.8062499,46.5 29.25,46.5 C29.3687497,46.5 29.4875001,46.4941186 29.5687501,46.4941186 L30.5,46.4934701 L45.5,46.4828249 L46.2750011,46.4823536 C46.4312511,46.4941186 46.5875011,46.5 46.75,46.5 C50.1937489,46.5 53,43.8588248 53,40.6176471 C53,37.3764694 50.1937489,34.7352941 46.75,34.7352941 Z" id="Path-Copy-2" fill="#2D84E8" fill-rule="nonzero"></path>
+                <g id="Oval-Copy" transform="translate(17.000000, 18.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <circle id="Oval" stroke="#2D84E8" stroke-width="2" mask="url(#mask-2)" cx="17" cy="17" r="12"></circle>
+                </g>
+                <g id="Oval-Copy-2" transform="translate(11.775227, 12.506762)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <circle id="Oval" stroke="#8CBBF2" stroke-width="2" opacity="0.7" mask="url(#mask-4)" cx="22.224773" cy="22.4932378" r="17"></circle>
+                </g>
+                <g id="Oval-Copy-3" transform="translate(6.775227, 7.506762)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <circle id="Oval" stroke="#B1D1F6" stroke-width="2" opacity="0.5" mask="url(#mask-6)" cx="27.224773" cy="27.4932378" r="22"></circle>
+                </g>
+                <rect id="Rectangle-Copy-2" fill="#2D84E8" opacity="0.100000001" x="0" y="0" width="68" height="68" rx="34"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
