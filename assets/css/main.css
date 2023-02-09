@@ -6,15 +6,16 @@
   box-sizing: border-box;
 }
 
+.mobile-sidebar {  
+  display:none; 
+}
 
 @media only screen and (max-width: 768px) {
-  .menu-btn {
-    background-color: lightblue;
-    
+  .menu-btn.mobile-sidebar {
+    display:block;
     height: 20px;
-    width: calc(100% + 55px);
-    position: absolute;
-    margin: 0!important;
+    font-size: 16px;
+    margin:5px 0;
   }
 
   .menu-btn i {
@@ -1012,7 +1013,7 @@ ul li {
 .statistic * {
   margin-bottom: 1rem;
 }
-.baloon {
+.square {
   background: #06a4de;
   padding: 40px 10px;
   border-radius: 5px;
@@ -1020,17 +1021,25 @@ ul li {
   font-size: 1rem;
   text-align: center;
   transition: all 0.3s;
+  min-height: 240px;
+  position: relative;
 }
-.baloon:hover {
+.square:hover {
   background: #0486b6;
   transform: scale(1.1);
 }
 
-.baloon span {
+.square span {
   display: block;
 }
+
 .number {
-  font-size: 2rem;
+  font-size: 3.2rem;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 textarea {
@@ -1051,15 +1060,27 @@ footer.footer {
 }
 
 @media (min-width: 576px) {
-.footer-wrap .footer .last-line .last-line-ul .last-line-li {
+  .footer .last-line .last-line-ul .last-line-li {
     margin-left: 54px;
 }
+}
 
-.footer-wrap .footer .last-line .last-line-ul .last-line-li {
+ .footer .last-line .last-line-ul .last-line-li {
     display: inline-block;
     margin-left: 26px;
 }
 
+.footer .footer-list-heading .footer-list-heading-span {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+
+.bbb-wrap img {
+  max-width: 100%;
+  height: auto;
+}
 /* /Global*/
 
 .carousel {
@@ -1307,7 +1328,7 @@ ul.pagination li:last-child {
   background: #1b1a1b;
   backdrop-filter: blur(15px);
   width: 250px;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   left: -250px;
@@ -1324,6 +1345,7 @@ ul.pagination li:last-child {
 .side-bar.active {
   left: 0;
   z-index: 9;
+  height: 100%;
 }
 .aside h1 {
   text-align: center;
@@ -1342,6 +1364,11 @@ ul.pagination li:last-child {
 .side-bar .menu.aside .item {
   position: relative;
   cursor: pointer;
+}
+
+.author-desc {
+  color:#fff;
+  padding:0 5px;
 }
 
 .side-bar .menu.aside .item a {
