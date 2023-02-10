@@ -1,4 +1,5 @@
 
+
         $(".nav li").hover(function () {
             $(this).find(".mega-menu").stop().slideDown();
         }, function () {
@@ -14,6 +15,33 @@
             $(".tab-content div").hide();
             $(tabId).show();
         });
+         
+        /*Mobile menu */
+        $(document).ready(function(){
+            $("#mobile-menu-icon").click(function(){
+              $("#mobile-menu").slideToggle();
+            });
+          });
+
+          // ==========================================================================
+//	Multi-level accordion nav
+// ==========================================================================
+$('.mobnav-label').click(function () {
+	var label = $(this);
+	var parent = label.parent('.has-children');
+	var list = label.siblings('.mobnav-list');
+
+	if ( parent.hasClass('is-open') ) {
+		list.slideUp('fast');
+		parent.removeClass('is-open');
+	}
+	else {
+		list.slideDown('fast');
+		parent.addClass('is-open');
+	}
+});
+// ==========================================================================
+        /* /Mobile menu */
 
         /*Accordion
 ================================================== */
