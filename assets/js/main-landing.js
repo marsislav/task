@@ -68,7 +68,7 @@ $('.mobnav-label').click(function () {
  
         $(document).ready(function(){
             // Get the modal
-            var modal = $("#myModal");
+            var modal = $("#applyModal");
           
             // Get the button that opens the modal
             var btn = $(".apply");
@@ -460,7 +460,7 @@ $('.mobnav-label').click(function () {
               console.log(pp_email.value);
              
               
-              modal = $("#myModal");
+              modal = $("#applyModal");
               modal.css("display", "none");
               }  
               

@@ -39,6 +39,12 @@ li {
   transform-style: preserve-3d;
 }
 
+@media only screen and (max-width: 760px) {
+  .baloon-sm {
+    margin: 0 auto;
+  }
+}
+
 .baloon-sm.green:after {
   content: " ";
   background: #d9f0dc;
@@ -113,6 +119,12 @@ li {
     min-height: 220px;
 }
 
+@media only screen and (max-width: 576px) {
+  .box {
+    margin-bottom:2rem;
+  }
+}
+
 textarea {
   resize: none;
 }
@@ -130,6 +142,18 @@ textarea {
     height: 380px;
     margin-left: 0;
 }
+}
+
+.margin-top-one {
+  margin-top:1rem;
+  }
+
+.margin-top-two {
+  margin-top:2rem;
+  }
+
+.margin-top-three {
+margin-top:3rem;
 }
 
 .margin-bottom-one {
@@ -177,7 +201,11 @@ margin-bottom:3rem;
   background:transparent;
   transition:all 0.3s;
   color: #3e79a5;
-  margin-top: -4px;;
+
+}
+
+.joinus .btn-transparent {
+  margin-top: -4px;
 }
 
 .btn-transparent:hover {
@@ -190,11 +218,31 @@ margin-bottom:3rem;
   padding-bottom: 2rem;
 } 
 
+.flex-containerrr {
+  display:flex;
+  justify-content: space-evenly;
+}
+
 .flex-container {
   display:flex;
   align-items:start;
 }
 
+@media only screen and (max-width: 660px) {
+.flex-container {
+    display: block;
+  }
+}
+
+.menu-block {
+  background: #fff;
+  padding:10px;
+}
+
+.menu-block:hover {
+  background: #f7fafc;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 .center {
   text-align: center;
@@ -350,9 +398,31 @@ margin-top: -4px;
   margin-top:-100px;
  }
 
+ .start-earning .apply-now {
+  margin-right: 40px;
+ }
  .faq {
   background: #e1ecfe;
  }
+
+ .partnership .apply-now {
+  margin-right: 40px;
+}
+
+.partnership .btn-transparent  {
+  margin-top: -15px;
+
+}
+
+.easy-steps .apply {
+  margin-right:40px
+}
+
+
+.easy-steps .btn-transparent {
+  margin-top:-15px
+}
+
 
 /* /Sections*/
 
@@ -427,7 +497,7 @@ margin-top: -4px;
 
 .nav a {
     display: block;
-    padding: 10px 20px;
+    padding: 20px 20px 10px 20px;
     text-decoration: none;
 }
 
@@ -459,13 +529,17 @@ margin-top: -4px;
 }
 
 .tabs a {
-    display: block;
-    padding: 10px 0;
-    text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  text-align: right;
+  padding: 10px 30px;
+  text-decoration: none;
+  color:#fff;
+  text-decoration: none;
 }
 
 .tab-content {
-    padding: 20px;
+    padding: 10px;
 }
 
 .tab-content div {
@@ -482,7 +556,8 @@ margin-top: -4px;
  
 a.active {
 position: relative;
-
+color:#fcb043;
+text-decoration: none;
 }
 
 
@@ -495,28 +570,57 @@ clip-path: polygon(60.75% 0%, 61.62% 26.75%, 64% 100%, 0% 49.25%);
 background-color: #fff;
 }
 
-
+#mobile-menu-icon {
+  display: none;
+}
+.mobile-header {
+  display:none;
+}
+  
 /*Mobile menu */
 @media only screen and (max-width: 768px) {
+
+  .container {
+    position:relative;  }
+
   #mobile-menu {
     display: block;
-  }  #mobile-menu-icon {
+  }  
+  
+  #mobile-menu-icon {
       position: absolute;
-      top: 0;
-      right: 40px;
+      top: -5px;
+      right: 20px;
+      display: block;
   }
+
+  #mobile-menu-icon i{
+    color:#fff;
+    font-size: 26px;
+    padding: 15px 16px;
+    background: #1f7eea;
+}
 
   .nav li {
     display:none;
     }
+
+    .mobile-header {
+      display:block;
+      background: #fff;
+      padding:10px 0;
+    }
 }
+
+
 
 #mobile-menu {
   display: none;
 }
 
-.nav li.logo {
+.nav li.logo a {
   display:block;
+  padding-top:10px;
   }
  
 
@@ -613,9 +717,6 @@ a:hover {
 /* /Header*/
 
 
-/*moadal*/
-
-
 /*Modal*/
 .modal {
   display: none; /* Hidden by default */
@@ -637,7 +738,7 @@ a:hover {
 .close {
   color: #f00;
   position: absolute;
-  left:70%;
+  right:15%;
   font-size: 108px;
   font-weight: bold;
 }
@@ -673,6 +774,13 @@ input:-internal-autofill-selected {
   opacity: 1;
   visibility: visible;
 }
+
+@media only screen and (max-width: 860px) {
+  #multistep_form {
+    width: auto;
+  }
+}
+
 /*progress header*/
 #progress_header {
   overflow: hidden;
@@ -900,6 +1008,45 @@ h1 {
   top: 50%;
 }
 /*/Form*/
+
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  padding: 30px;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 0.2s;
+  visibility: hidden;
+}
+.modal-container:target {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.modal-container .modal-inner {
+  background: white;
+  left: 50%;
+  max-width: 800px;
+  padding: 20px;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.modal-close {
+  color: red;
+  display: flex;
+  font-family: Arial;
+  font-size: 16px;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
 
 /*Footer*/
 footer.footer {
